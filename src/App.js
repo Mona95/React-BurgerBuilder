@@ -1,7 +1,14 @@
 import React from "react";
+import Layout from "./components/Layout/Layout";
 
 function App() {
-  return <div>Burger Builder Application</div>;
+  return (
+    <div>
+      <Layout>
+        <p>Test here</p>
+      </Layout>
+    </div>
+  );
 }
 
 export default App;
